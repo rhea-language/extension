@@ -4,7 +4,7 @@
     "description": "N8 language and syntax highlighting extension.",
     "version": "0.0.1",
     "icon": "assets/n8-logo.png",
-    "publisher": "Nathanne Isip",
+    "publisher": "nthnn",
     "repository": "https://github.com/n8lang/n8",
     "engines": {
         "vscode": "^1.91.0"
