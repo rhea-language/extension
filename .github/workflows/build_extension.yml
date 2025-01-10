@@ -27,5 +27,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: n8-vsce
-          path: n8-lang-vsce-0.0.1.vsix
+          path: n8-lang-vsce-0.0.2.vsix
           retention-days: 1
