@@ -11,7 +11,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.n8",
-				"match": "\\b(break|catch|continue|delete|else|false|func|halt|handle|if|lock|loop|maybe|nil|parallel|random|render|ret|size|test|then|throw|true|type|unless|use|val|wait|when|while|with)\\b"
+				"match": "\\b(break|catch|continue|delete|else|enum|false|func|halt|handle|if|lock|loop|maybe|nil|parallel|random|render|ret|size|test|then|throw|true|type|unless|use|val|wait|when|while)\\b"
 			}]
 		},
 		"digits": {
