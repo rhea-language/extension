@@ -49,7 +49,7 @@
 			"patterns": [
 				{
 					"name": "constant.character.escape.n8",
-					"match": "\\\\[btnfr\"\\\\]"
+					"match": "\\\\[nrtabvfe\"\\\\]"
 				}
 			]
 		}
