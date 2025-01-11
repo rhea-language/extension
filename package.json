@@ -2,7 +2,7 @@
     "name": "n8-lang-vsce",
     "displayName": "N8",
     "description": "N8 language and syntax highlighting extension.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "icon": "assets/n8-logo.png",
     "publisher": "nthnn",
     "repository": "https://github.com/n8lang/n8",
