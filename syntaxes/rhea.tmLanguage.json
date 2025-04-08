@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "N8",
+	"name": "Rhea",
 	"patterns": [
 		{ "include": "#keywords" },
 		{ "include": "#strings" },
@@ -10,50 +10,50 @@
 	"repository": {
 		"keywords": {
 			"patterns": [{
-				"name": "keyword.control.n8",
+				"name": "keyword.control.rhea",
 				"match": "\\b(break|catch|continue|delete|else|enum|false|from|func|halt|handle|import|if|lock|loop|maybe|mod|nil|parallel|random|render|ret|size|test|then|throw|true|type|unless|use|val|wait|when|while)\\b"
 			}]
 		},
 		"digits": {
 			"patterns": [{
-				"name": "digit.numberic.n8",
+				"name": "digit.numberic.rhea",
 				"match": "\\b(0b[01]+|0t[0-2]+|0c[0-7]+|0x[0-9a-fA-F]+|\\d+(\\.\\d*)?)\\b"
 			}]
 		},
 		"comments": {
 			"patterns": [{
-				"name": "comment.line.n8",
+				"name": "comment.line.rhea",
 				"begin": "#",
 				"beginCaptures": {
 				  	"0": {
-						"name": "punctuation.definition.comment.n8"
+						"name": "punctuation.definition.comment.rhea"
 					}
 				},
 				"end": "$"
 			}]
 		},
 		"strings": {
-			"name": "string.quoted.double.n8",
+			"name": "string.quoted.double.rhea",
 			"begin": "\"",
 			"end": "\"",
 			"beginCaptures": {
 				"0": {
-					"name": "punctuation.definition.string.begin.n8"
+					"name": "punctuation.definition.string.begin.rhea"
 				}
 			},
 			"endCaptures": {
 				"0": {
-					"name": "punctuation.definition.string.end.n8"
+					"name": "punctuation.definition.string.end.rhea"
 				}
 			},
 			"patterns": [
 				{
-					"name": "constant.character.escape.n8",
+					"name": "constant.character.escape.rhea",
 					"match": "\\\\[nrtabvfe\"\\\\]"
 				}
 			]
 		}
 	},
-	"fileTypes": ["n8"],
-	"scopeName": "source.n8"
+	"fileTypes": ["rhea"],
+	"scopeName": "source.rhea"
 }
