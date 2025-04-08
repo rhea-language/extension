@@ -1,11 +1,11 @@
 {
-    "name": "n8-lang-vsce",
-    "displayName": "N8",
-    "description": "N8 language and syntax highlighting extension.",
+    "name": "rhea-lang-vsce",
+    "displayName": "Rhea",
+    "description": "Rhea language and syntax highlighting extension.",
     "version": "0.0.4",
-    "icon": "assets/n8-logo.png",
+    "icon": "assets/rhea-logo.png",
     "publisher": "nthnn",
-    "repository": "https://github.com/n8lang/n8",
+    "repository": "https://github.com/rhea-language/rhea",
     "engines": {
         "vscode": "^1.91.0"
     },
@@ -15,26 +15,26 @@
     "contributes": {
         "languages": [
             {
-                "id": "n8",
+                "id": "rhea",
                 "aliases": [
-                    "N8",
-                    "n8"
+                    "Rhea",
+                    "rhea"
                 ],
                 "extensions": [
-                    ".n8"
+                    ".rhea"
                 ],
                 "configuration": "language-configuration.json",
                 "icon": {
-                    "light": "assets/n8-logo.png",
-                    "dark": "assets/n8-logo.png"
+                    "light": "assets/rhea-logo.png",
+                    "dark": "assets/rhea-logo.png"
                 }
             }
         ],
         "grammars": [
             {
-                "language": "n8",
-                "scopeName": "source.n8",
-                "path": "syntaxes/n8.tmLanguage.json"
+                "language": "rhea",
+                "scopeName": "source.rhea",
+                "path": "syntaxes/rhea.tmLanguage.json"
             }
         ]
     },
